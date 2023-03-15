@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 body{
     background: #000;
     margin: 0;
@@ -10,13 +12,22 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 nav{
     width: 90%;
+    height:20%;
+
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
 
 }
+
+/* .fixed-logo{
+    position: fixed;
+
+} */
 
 .logo{
     width: 50px;
@@ -31,7 +42,7 @@ nav{
 
 .container{
     width: 100%;
-    height: 65vh;
+    height: 70vh;
     /* background-color: #47e5e8; */
     display: flex;
     justify-content: center;
@@ -246,8 +257,8 @@ nav{
 }
 
 .bannertext h3{
-    font-size: 45px;
-
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -272,4 +283,39 @@ button {
   
   button:active {
     transform: perspective(170px) rotateX(36deg) translateY(5px);
+  }
+
+
+
+  .bridge-section{
+    width: 100%;
+    height: 20vh;
+    background: #000;
+  }
+
+  .second-section{
+    width: 60%;
+    margin: 10%;
+  }
+
+  .second-section a{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .second-section h2{
+    color: #fff;
+    font-size: 55px;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .freely{
+    color: rgb(206, 206, 116);
+    text-align: justify;
+  }
+
+  .sec-text {
+    width: 70%;
   }
