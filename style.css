@@ -13,10 +13,60 @@ body{
 
 
 .illution{
+    width: 900px;
+    background: linear-gradient(20deg,rgb(84, 98, 99),rgb(84, 98, 99));
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+.connection{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading svg polyline {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .loading svg polyline#back {
+    fill: none;
+    stroke: #4de7ff33;
+  }
+  
+  .loading svg polyline#front {
+    fill: none;
+    stroke: #47e5e8;
+    stroke-dasharray: 48, 144;
+    stroke-dashoffset: 192;
+    animation: dash_682 1.4s linear infinite;
+  }
+  
+  @keyframes dash_682 {
+    72.5% {
+      opacity: 0;
+    }
+  
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+
+
+
 
 .git-userface{
     width: 210px;
