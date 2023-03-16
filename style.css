@@ -347,13 +347,38 @@ button {
   }
 
 
+
   .imgdemo{
     width: 100%;
     height: 700px;
     /* background: #47e5e8; */
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .moon{
+    transform: translateY(-50%);
+
+
+  }
+
+  .moonani{
+    animation: moonani 3s linear;
+    animation-fill-mode: forwards;
+
+  }
+  
+  
+  @keyframes moonani {
+    from{
+      transform: translateY(-100%);
+    }
+    to{
+      transform: scale(.4) rotate(60deg) translate(300%,500%);
+      
+    }
   }
 
 
