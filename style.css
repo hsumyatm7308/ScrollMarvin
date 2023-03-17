@@ -336,7 +336,11 @@ button {
   .demosection{
    width: 100%;
    height: 100vh;
+   /* background-color: #414141; */
    display: flex;
+
+   position: relative;
+
   }
 
   .leftdemo{
@@ -361,27 +365,23 @@ button {
 
   .moon{
     position: absolute;
-    transition: all 5s;
+    transition: all 3s;
     top: 0px;
 
+    transform: scale(.7) rotate(0);
+
+
   }
 
-  /* .moonani{
-    animation: moonani 3s linear;
-    animation-fill-mode: forwards;
+  
 
-  } */
+  
+
+
   
   
-  @keyframes moonani {
-    from{
-      transform: translateY(-100%);
-    }
-    to{
-      transform: scale(.4) rotate(60deg) translate(300%,500%);
-      
-    }
-  }
+
+
 
 
   .decoration1{
@@ -420,6 +420,7 @@ button {
   .rightdocumen{
     width: 100%;
     height: 700px;
+    /* background-color: #47e5e8; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -502,6 +503,14 @@ button {
     align-items: center;
     flex-direction: column;
   
+  }
+
+
+
+  .demosection2{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
   }
 
   
