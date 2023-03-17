@@ -32,9 +32,14 @@ $(document).ready(function(){
     console.log(finalheight + ' final')
 
       moonid.style.top = `${finalheight}px`
-      moonid.style.transform = "scale(.7) rotate(60px)"
+      moonid.style.transform = "scale(.4) rotate(50deg)"
 
 
+
+      if(finalheight <= 140){
+      moonid.style.transform = "scale(.7) rotate(10deg)"
+         
+      }
   
 
 
