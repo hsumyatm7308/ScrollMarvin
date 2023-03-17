@@ -8,11 +8,6 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
 
-
-
-    const rect = demosection.getBoundingClientRect();
-    // console.log(rect.top + " rect")
-
    scrolltop = $(this).scrollTop();
     // console.log(scrolltop + " scrolltop")
 

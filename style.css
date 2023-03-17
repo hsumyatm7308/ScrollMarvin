@@ -26,10 +26,6 @@ nav{
 
 }
 
-/* .fixed-logo{
-    position: fixed;
-
-} */
 
 .logo{
     width: 50px;
@@ -41,6 +37,14 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+
+
 
 .container{
     width: 100%;
@@ -514,22 +518,55 @@ button {
   }
 
   
-/* 
-  .documentation{
-    width: 100px;
-    height: 100px;
-    background-color: #2b2b2b;
-    border: 1px solid #3e3c3c;
-    margin-right: 25%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    }
-
-  .d{
-    font-family: 'Smokum', cursive;
-  } */
 
   
+
+   @media only screen and (max-width:1200px){
+
+    nav{
+      margin-left: 10%;
+    }
+
+    .logo{
+      margin-top: 7%;
+    }
+  
+    .container{
+      height: 35vh;
+    }
+
+    .bridge-section{
+      height: 5vh;
+    }
+
+    .demosection{
+      height: 50vh;
+      display: grid;
+    }
+  
+    .leftdemo{
+      width: 100%;
+    }
+  
+    .decoration{
+      display: none;
+    }
+   
+    .rightdemo{
+      width: 100%;
+      margin-top: -15%;
+    }
+
+
+  } 
+
+
+
+
+ 
+
+
+
+
+
+ 
