@@ -334,13 +334,61 @@ button {
     color: #5e6767;
   }
 
+
+  .smooth-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  }
+
+  .smooth-display{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .col4{
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid #414141;
+  }
   
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.demosection-container{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+
   .demosection{
-   width: 100%;
+   width: 80%;
    height: 100vh;
    /* background-color: #414141; */
+   border-top: 1px solid #414141;
    display: flex;
 
    position: relative;
@@ -348,7 +396,7 @@ button {
   }
 
   .leftdemo{
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
 
@@ -415,7 +463,7 @@ button {
 
 
   .rightdemo{
-    width: 30%;
+    width: 40%;
     display: flex;
     /* border-left: 1px solid #fff; */
     justify-content: center;
@@ -433,8 +481,8 @@ button {
   }
 
   .nightdemo-documentation{
-    width: 70%;
-    height: 400px;
+    width: 90%;
+    height: 500px;
     border: 1px solid #2b2b2b;
     display: flex;
     justify-content: center;
@@ -448,7 +496,7 @@ button {
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 10%;
  
   }
@@ -462,7 +510,7 @@ button {
 
   .getcode-container{
     width: 100%;
-    height: 80px;
+    padding: 20px;
     border: 1px solid #2b2b2b;
     border-left: 0;
     border-right: 0;
@@ -473,6 +521,7 @@ button {
 
   .getcode{
     width: 85%;
+  
     display: flex;
     justify-content: start;
     align-items: center;
@@ -516,10 +565,22 @@ button {
 
 
 
-  .demosection2{
+
+
+  .demosection2-container{
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .demosection2{
+    width: 80%;
+    height: 100vh;
     background-color: #000;
+    border-top: 1px solid #2b2b2b;
     display: flex;
     justify-items: center;
     align-items: end;
@@ -586,6 +647,7 @@ button {
   .demosection3{
     width: 100%;
     height: 100vh;
+    border-top: 1px solid #212121;
   }
   
 

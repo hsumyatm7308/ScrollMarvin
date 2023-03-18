@@ -52,10 +52,10 @@ $(document).ready(function(){
       getdiamond.style.transition = 'all 2s';
 
       if(demo2finalheight < 122){
-        getdiamond.style.transform = 'rotate(10deg)';
+        getdiamond.style.transform = 'rotate(20deg)';
 
       }else if(demo2finalheight >= 122){
-        
+
         getdiamond.style.transform = 'rotate(0deg)';
       }
 
