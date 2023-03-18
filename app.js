@@ -1,6 +1,9 @@
  
 const moonid = document.getElementById('moonid')
-const demosection = $('.demosection').get(0)
+const demosection = $('.demosection').get(0);
+
+const getdiamond = document.querySelector('.big-circle');
+const demosection2 = $('.demosection2');
 
 
 
@@ -10,7 +13,6 @@ $(document).ready(function(){
 
    scrolltop = $(this).scrollTop();
     // console.log(scrolltop + " scrolltop")
-
 
     const clientheight = $(moonid).height();
     // console.log(clientheight + ' client')
@@ -24,7 +26,7 @@ $(document).ready(function(){
 
 
     const finalheight = (scrolltop  / 10) % curheight 
-    console.log(finalheight + ' final')
+    // console.log(finalheight + ' final')
 
       moonid.style.top = `${finalheight}px`
       moonid.style.transform = "scale(.4) rotate(50deg)"
@@ -36,6 +38,31 @@ $(document).ready(function(){
          
       }
   
+
+
+      const demo2clientheight = $(getdiamond).height();
+      // console.log(demo2clientheight)
+      const demo2scrollheight = $(demosection2).height();
+      // console.log(demo1scrollheight)
+      const demo2curheight = demo2scrollheight - demo2clientheight;
+
+      const demo2finalheight = (scrolltop * 32 ) / demo2curheight  ;
+
+      getdiamond.style.height = `${demo2finalheight}px`;
+      getdiamond.style.transition = 'all 2s';
+
+      if(demo2finalheight < 122){
+        getdiamond.style.transform = 'rotate(10deg)';
+
+      }else if(demo2finalheight >= 122){
+        
+        getdiamond.style.transform = 'rotate(0deg)';
+      }
+
+      console.log(demo2finalheight)
+      
+
+      
 
 
  
